@@ -21,7 +21,7 @@ A structured, machine-readable dataset of **5,082 parsed email threads** (16,447
 from datasets import load_dataset
 
 # Load the thread-level dataset
-dataset = load_dataset("notesbymuneeb/epstein-emails", "threads")
+dataset = load_dataset("notesbymuneeb/epstein-emails", "default")
 
 # Access a thread
 thread = dataset["train"][0]
